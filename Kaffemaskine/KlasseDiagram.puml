@@ -1,0 +1,9 @@
+@startuml
+class Main {
++ {static} void main(String[])
+}
+class CoffeeMachine {
++ {static} void print(int,int,int,int,int)
++ {static} boolean isEnough(String,int,int,int,int)
+}
+@enduml
